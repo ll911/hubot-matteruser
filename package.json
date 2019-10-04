@@ -27,10 +27,13 @@
     "start": "bin/hubot -a mattermost --name hubot-mm"
   },  
   "dependencies": {
+    "hubot": ">=3.0.1",
     "mattermost-client": "^6.1.1",
     "parent-require": "^1.0.0",
     "ws": ">=3.3.1",
     "q": "^1.4.1"
+    "generator-hubot" : ">=0.4.0",
+    "yo": ">=3.1.0"
   },
   "peerDependencies": {
     "hubot": ">=3.0.1"
