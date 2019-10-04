@@ -24,7 +24,7 @@
   },
   "main": "./src/matteruser.js",
   "scripts": {
-    "start": "bin/hubot -a matteruser --name hubot-mm"
+    "start": "bin/hubot -a matteruser"
   },  
   "dependencies": {
     "hubot": ">=3.0.1",
