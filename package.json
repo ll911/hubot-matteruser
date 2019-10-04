@@ -24,8 +24,6 @@
   },
   "main": "./src/matteruser.js",
   "scripts": {
-    "postinstall": "echo 'No' | yo hubot --adapter matteruser --owner='${MATTERMOST_GROUP}' --name='${MATTERMOST_USER}' --description='${MATTERMOST_USER}' --defaults \
-&& sed -i '/heroku/d' external-scripts.json && rm hubot-scripts.json",
     "start": "bin/hubot -a matteruser --name hubot-mm"
   },  
   "dependencies": {
