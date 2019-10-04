@@ -23,6 +23,9 @@
     "email": "support@aemian.com"
   },
   "main": "./src/matteruser.js",
+  "scripts": {
+    "start": "bin/hubot -a mattermost --name hubot-mm"
+  },  
   "dependencies": {
     "mattermost-client": "^6.1.1",
     "parent-require": "^1.0.0",
